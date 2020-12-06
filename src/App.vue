@@ -45,31 +45,35 @@ export default {
  data(){
     return{
         title: 'INTEGRANTES EQUIPO 113',
-        team: [{
+        team: [
+          {
           codigo:1,
           nombre: 'Ana María Rodríguez Botero',
           descripcion: 'Edad 23 años, Ingeniera Física de la Universidad Nacional. Tengo 23 años. Me gusta leer, viajar y aprender.',
           rol: 'Desarrollador Backend y Frontend',
-          image: "",
-        },{
+          image: "images/Ana.jpg",
+          },
+          {
           codigo:2,
           nombre: 'Ariel Alfonso Angarita Leon',
           descripcion: 'Tecnologo ADSI del SENA. Tengo 41 años. Me encanta la tecnología, los videojuegos y ver series de TV. Trabajo como contratista independiente en TIC.',
           rol: 'Analista de Software',
-          image: "",
-        },{
+          image: "images/AAAL.jpg",
+          },
+          {
           codigo:3,
           nombre: 'Hessler Nevin Inampuez López',
           descripcion: 'Estudiante de ingenieria civil de la Universidad de Nariño, tecnico laboral por competencias en sistemas. Tengo 28 años, como pasatiempo juego LoL y trabajo de manera independiente.',
           rol: 'Tester',
-          image: "",
-        },{
+          image: "images/hessler_inampuez.jpg",
+          },
+          {
           codigo:4,
           nombre: 'David Johan Villamil Padilla',
           descripcion: 'Ingeniero industrial de 27 años egresado de la Universidad de Ibague, Actualmente milito como consultor de Bussines inteligence para Axity Colombia, estudio  Para el MINTIC a traves de imaster en el piloto.',
           rol: 'Arquitecto de Software',
-          image: "",
-        },
+          image: "images/foto_david_villamil.jpg",
+          },
         ],
     }
   }
